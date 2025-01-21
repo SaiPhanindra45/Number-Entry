@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 .container{
-    background-color: bisque;
+    background-color:transparent;
     max-width: 70%;
     margin: auto;
     border: 3px black solid ;

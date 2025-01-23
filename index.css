@@ -1,29 +1,33 @@
 body {
-    background-image: url("theflash.jpg");
+    background-image:url("theflash.jpg");
     background-size: cover;
     font-family:"Trade Winds", serif;
     font-weight: bold;
-    
     justify-content:  center;
     text-align: center;
     height: 100vh;
     
 }
-.container{
-    background: rgba(255, 255, 255, 0.473);
+.container {
+    background: rgba(12, 11, 11, 0.761);
     max-width: 40%;
     min-height: 70%;
     margin: auto;
-    border: 2px black;
-    border-radius: 10px;
-    box-shadow: 8px 10px 5px rgba(11, 10, 10, 0.391);
+    border: 3px solid transparent;
+    border-radius: 25px;
     padding: 30px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 69, 0, 0.8);
 }
+
+
 h1 {
     font-family: "Trade Winds", serif;
   font-weight: 400;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(247, 247, 247);
   color: goldenrod;
   font-style: normal;
+  min-width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -31,6 +35,8 @@ h1 {
 h2 {
     font-family: "Trade Winds", serif;
     font-weight: 400;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
     font-style: normal;
     color: goldenrod;
     font-size: 50px;
@@ -43,6 +49,8 @@ p{
     font-size: 20px;
     margin-top: 40 ;
     color: red;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(246, 241, 241);
     color-scheme: dark blue;
     margin-bottom: 20px;
     font-family: "Trade Winds", serif;
@@ -55,12 +63,12 @@ p{
 
 button {
     font-family: "Trade Winds", serif;
-
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(255, 251, 251);
     font-weight: bold;
-    width: 200px;
+    max-width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 3px rgba(11, 10, 10, 0.568) solid ;

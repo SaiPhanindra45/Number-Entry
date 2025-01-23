@@ -22,6 +22,7 @@ body {
 h1 {
     font-family: "Trade Winds", serif;
   font-weight: 400;
+  color: goldenrod;
   font-style: normal;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -31,6 +32,7 @@ h2 {
     font-family: "Trade Winds", serif;
     font-weight: 400;
     font-style: normal;
+    color: goldenrod;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -40,6 +42,8 @@ p{
   
     font-size: 20px;
     margin-top: 40 ;
+    color: red;
+    color-scheme: dark blue;
     margin-bottom: 20px;
     font-family: "Trade Winds", serif;
     font-weight: 25;
